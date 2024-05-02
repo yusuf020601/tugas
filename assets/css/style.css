@@ -1,0 +1,170 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0 ;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.wrapper {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    justify-content: space-between;
+    background-color:cornflowerblue;
+}
+
+.brand {
+    float: right;
+    text-transform: capitalize;
+    font-size: 30px;
+    padding: 15px;
+    font-weight: 100;
+    color: #eee;
+}
+
+nav .brand{
+    font-family: 'Rubik Microbe', cursive;
+}
+
+.ul-navbar {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: black;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+    padding: 20px;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: greenyellow;
+}
+
+
+.container-content {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    background-color: white;
+    height: 70vh;
+}
+
+.img-content {
+    margin: 100px 20px 10px 50px;
+    width: 20%;
+    height: 4%;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+    
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;    
+}
+
+.kolom{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Rubik Microbe', cursive;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #364f6b;
+    margin: 10px 60px 0 300px;
+    justify-content: center;
+}
+
+.kolom >h2 {
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+    margin: 150px 30px 40px 100px;
+}
+
+.kolom>p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    font-size: 25px;
+    color: #364f6b;
+    line-height: 25px;
+    margin: 20px 10px 10px 250px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: cornflowerblue;
+}
+
+.footer-section{
+    width: 20%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.footer-section p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer-section>p>a{
+    list-style-type: none;
+    color: black;
+    text-decoration: none;
+}
+.footer-section>p>a:hover{
+    background-color: #364f6b;
+}
+
+.footer-section h1{
+    font-family: 'comic sans ms';
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 5px;
+    width: 100%;
+    line-height: 50px;
+}
+
+.img-footer {
+    width: 30px;
+    height: 30px;
+    margin: 10px 10px 10px 10px;
+}
